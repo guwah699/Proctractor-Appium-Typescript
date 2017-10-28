@@ -1,0 +1,25 @@
+Feature: Product Expert Smoke Tests
+
+    Background:
+    Given I go to the Product Expert URL
+    
+    Scenario: User closes welcome page
+    When I click to close the welcome page   
+    Then the motivation page is displayed 
+    
+    Scenario: User opens burger menu
+    When I click to close the welcome page 
+    When I click to open the burger menu
+    Then the burger menu is expanded
+    
+    When I click to close the burger menu
+    Then the burger menu is collasped
+    
+    When I click the search icon
+    Then an empty search page is displayed
+    
+    When I click the basket icon
+    Then an empty basket page is displayed 
+    
+    When I click the back arrow
+    Then I am taken back to the empty search page

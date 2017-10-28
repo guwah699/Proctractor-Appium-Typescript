@@ -1,0 +1,17 @@
+# Specifies files to intentionally ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules/
+.DS_Store
+protractor-results/
+test-assets/
+diff-assets/
+reports/diff-assets/*
+reports/test-assets/*
+reports/Windows/*
+reports/Unix/*
+reports/Android/*
+reports/iOS/*
+.idea/*
+build/
+out/
